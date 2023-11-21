@@ -1,0 +1,38 @@
+.button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    font-size: 18px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 20px;
+}
+
+.ejercicio1 {
+    background-color: #77dd77;
+    color: black;
+}
+
+.ejercicio1:hover {
+    background-color: #77dd77;
+}
+
+.ejercicio2 {
+    background-color: #84b6f4;
+    color: black;
+}
+
+.ejercicio2:hover {
+    background-color: #84b6f4;
+}
